@@ -2,26 +2,204 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d04fdd-2d49-4973-a5f2-5c5c20d852c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/BinarizerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/Bucketizertest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/ChisqSelectorTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/CountVectorizerTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/DCTtest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/ElementwiseProductTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/Indexer2stringTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/Normallizertest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/OneHotEncodetest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/ml/feature/PCAtest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/mllib/fpm/AssociationRulesTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/mllib/fpm/AssociationRulestest2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hj/util/LogUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/DataFrameTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/UUIDTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hj/util/SparkBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hj/util/SparkBuilder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Builder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hj/util/Builder$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hj/util/Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/SparkBuilder$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hj/util/SparkBuilder$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sparkml.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/basic/IndexedRowMatrixTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/basic/IndexedRowMatrixTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/basic/IndexedRowMatrixTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/basic/VectorTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/basic/VectorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/BinarizerTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/BinarizerTest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/BinarizerTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/BinarizerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Bucketizertest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Bucketizertest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Bucketizertest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Bucketizertest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ChisqSelectorTest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ChisqSelectorTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ChisqSelectorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/CountVectorizerTest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/CountVectorizerTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/CountVectorizerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/DCTtest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/DCTtest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/DCTtest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/DCTtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ElementwiseProductTest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ElementwiseProductTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/ElementwiseProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Indexer2stringTest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Indexer2stringTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Indexer2stringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Normallizertest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/Normallizertest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/OneHotEncodetest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/OneHotEncodetest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/OneHotEncodetest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/PCAtest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/PCAtest$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/PCAtest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/ml/feature/PCAtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/BinaryClassification$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/BinaryClassification$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/BinaryClassification$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/BinaryClassification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/DecisionTreeClassificationTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/DecisionTreeClassificationTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/DecisionTreeClassificationTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/DecisionTreeClassificationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$1$$anonfun$apply$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$4$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/GradientBoostTreeClazTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/Lbfgs_logistic$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/Lbfgs_logistic$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/Lbfgs_logistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/LinearRegTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/NaiveBayesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/RandomForestClazTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/RandomForestClazTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/RandomForestClazTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/claz/RandomForestClazTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GaussianMixtureTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GaussianMixtureTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GaussianMixtureTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GaussianMixtureTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GaussianMixtureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/GussianMatrixTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/KMeansTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/PoweItClusterTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/cluster/PoweItClusterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCATest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCATest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCATest$$anonfun$by_PCA_class$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCATest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCATest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/PCAtest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/features/SVDTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulesTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulesTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/AssociationRulestest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/FPGrowthTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/FPGrowthTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/FPGrowthTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/fpm/FPGrowthTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/DecisionTreeRegTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/DecisionTreeRegTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/DecisionTreeRegTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/DecisionTreeRegTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/GradientBoostTreeRegTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/GradientBoostTreeRegTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/GradientBoostTreeRegTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/GradientBoostTreeRegTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/reg/IsotonicRegTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation$$anonfun$main$1$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/Correlation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/mllib/summary/CosineSimilarityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Algorithm$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Algorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Builder$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/CorrelationMethodType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/CorrelationMethodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/LocalFile$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/LocalFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/LogUtil$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/LogUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Params$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/Params.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/RegType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/RegType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/SparkBuilder$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hj/util/SparkBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataFrameTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataFrameTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataFrameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MathTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MeanTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestArrayDrop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestArrayDrop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UUIDTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UUIDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/countByValueTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/countByValueTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/countByValueTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,10 +298,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-ml" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-ml" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -215,16 +409,6 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="hj" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparkml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparkml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="hj" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparkml" type="b2602c69:ProjectViewProjectNode" />
@@ -417,12 +601,12 @@
       <workItem from="1545096397972" duration="25877000" />
       <workItem from="1545184117675" duration="26416000" />
       <workItem from="1545270790680" duration="15865000" />
-      <workItem from="1545290804976" duration="3235000" />
+      <workItem from="1545290804976" duration="3548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73539000" />
+    <option name="totallyTimeSpent" value="73852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
@@ -433,7 +617,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42792794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37274775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2849099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,7 +635,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3299356" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3299356" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
