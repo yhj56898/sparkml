@@ -1,5 +1,6 @@
 package com.hj.util
 
+import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -34,6 +35,4 @@ private val bulider = new Builder
 
     new SparkContext(conf)
   }
-
-
 }
